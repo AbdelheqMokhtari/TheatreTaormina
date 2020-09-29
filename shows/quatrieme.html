@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/icon.jpg"/>
+    <link rel="stylesheet" href="../css/seatbooking.css" />
+    <link rel="stylesheet" type="text/css" href="../css/nav-bar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <title>B O O K I N G</title>
+  </head>
+  <body>
+
+ <nav class="zone backgroundnav sticky">
+      <ul class="main-nav">
+      	  <li><a href="../index.html"><img class="logo" src="../img/logo3.png" alt="#"></a></li>
+          <a href="../home.html"> <li id = "name">T A O R M I N A</li></a>
+          <li class="push padding" ><a href="../Login.html">Log in</li></a>
+      </ul>
+</nav>
+<div class="Booking">
+  <img src="../img/poster5.jpg">
+  <div class="theatre">
+    <div class="movie-container">
+      <label>Pick a class:</label>
+      <select id="movie">
+        <option value="10">Room A($10)</option>
+        
+        
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat "></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of $<span
+        id="total"
+        >0</span
+      >
+    </p>
+
+     <button class="button" onclick="bill()">Submit</button>
+
+
+   </div>
+  
+     <img src="../img/poster5.jpg">
+</div>     
+
+    <footer class="footer-distributed" id="bottom">
+
+			<div class="footer-left">
+
+				<h3><span>T A O R M I N A</span></h3>
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					
+					<a href="#container">History</a>
+				
+					<a href="#">Home</a>
+				
+					<a href="#">About</a>
+					
+					<a href="#">Faq</a>
+					
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">T A O R M I N A © 2020</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>C16   </span> El fadjr , Batna</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>0667304629</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:hakoumokhtari6@gmail.com">hakoumokhtari6@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					T A O R M I N A it's  the first company of online booking for theatre we have all the new shows 
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/hakoo.mokhtari" target="_blanck"><i class="fa fa-facebook"><img src="../img/facebook.jpg"></i></a>
+					<a href="https://github.com/hakoumokhtari" target="_blanck"><i class="fa fa-twitter"><img src="../img/twitter.jpg"></i></a>
+					<a href="https://www.linkedin.com/in/abdelheq-mokhtari-3339b41b5/" target="_blanck"><i class="fa fa-linkedin"><img src="../img/linkedin.jpg"></i></a>
+					<a href="https://twitter.com/hakoumokhtariDZ" target="_blanck"><i class="fa fa-github"><img src="../img/github.jpg"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+    <script src="../js/seatbooking.js"></script>
+  </body>
+</html>

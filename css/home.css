@@ -1,0 +1,60 @@
+body{
+margin: 0 auto;
+	
+background: rgb(10,4,8); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(10,4,8) 0%, rgb(147,122,82) 75%, rgb(72,6,18) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(10,4,8) 0%,rgb(147,122,82) 75%,rgb(72,6,18) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(10,4,8) 0%,rgb(147,122,82) 75%,rgb(72,6,18) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0408', endColorstr='#480612',GradientType=0 ); /* IE6-9 */
+
+
+}
+.container {
+    /*show heigh: auto*/
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    width: 30rem;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+    -webkit-text-fill-color: transparent; 
+    padding: 0px;
+    margin: 10px;
+}
+
+.box > img {
+    width: 1000%;
+    height: auto;
+}
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.box > img {
+    width: 100%;
+    height: fill auto;
+}
+.color {
+   
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#937a52+0,5f4938+33,2f1d11+68,2f1d11+68,230308+87 */
+background: rgb(147,122,82); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(147,122,82) 0%, rgb(95,73,56) 33%, rgb(47,29,17) 68%, rgb(47,29,17) 68%, rgb(35,3,8) 87%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(147,122,82) 0%,rgb(95,73,56) 33%,rgb(47,29,17) 68%,rgb(47,29,17) 68%,rgb(35,3,8) 87%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(147,122,82) 0%,rgb(95,73,56) 33%,rgb(47,29,17) 68%,rgb(47,29,17) 68%,rgb(35,3,8) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#937a52', endColorstr='#230308',GradientType=0 ); /* IE6-9 */
+
+}
